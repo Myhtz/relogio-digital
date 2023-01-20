@@ -1,0 +1,428 @@
+// Responsivo
+
+@media only screen and (max-width: 1980px) {
+     .h1-font-black {
+          font-size: 65px;  
+     }
+     .h1-font-white {
+          font-size: 65px;
+     }
+
+     .relogio {
+          gap: 40px;
+     
+          .container {
+               width: 400px;
+          }
+     
+          #detail-x {
+               top: 100px;
+               width: 120px;
+               
+          }
+     
+          #detail-x-right {
+               top: 100px;
+               width: 120px;
+          }
+     
+          #detail-dots,#detail-dots2 {
+               top: 160px;
+               width: 18px;
+          }
+     
+          p {
+               font-size: 200px;
+               padding: 60px 50px 80px;
+          }
+     
+          #segundostxt {
+               padding-left: 40px;
+          }
+     
+          #legenda,#legenda1,#legenda2 {
+               font-size: 30px;
+               padding: 23px 157.5px;
+
+          }
+     
+          #legenda1 {
+               padding: 24px 142px;
+          }
+     
+          #legenda2 {
+               padding: 23px 127px;
+          }
+     }
+     .container-data{
+          max-width: 500px;
+          margin: 0 auto;
+          #lista {
+               display: flex;
+               gap: 30px;
+               margin: 0 auto;
+               justify-content: center;
+               text-decoration: none;
+               align-items: center;
+               max-width: 600px;
+               border-radius: 30px;
+     
+               li {
+                    padding: 25px 0px;
+                    text-align: center;
+               }
+               #data-extenso {
+                    font-size: 30px;
+               }
+               }
+     
+          #icon-calendar {
+               width: 60px;
+               height: 60px;
+          }
+     }
+ }
+
+ @media only screen and (max-width: 1980px) {
+     .h1-font-black {
+          font-size: 60px;  
+     }
+
+     .h1-font-white {
+          font-size: 60px;
+     }
+
+     .relogio {
+          gap: 40px;
+     
+          .container {
+               width: 360px;
+          }
+     
+          #detail-x {
+               top: 100px;
+               width: 120px;
+               
+          }
+     
+          #detail-x-right {
+               top: 100px;
+               width: 120px;
+          }
+     
+          #detail-dots,#detail-dots2 {
+               top: 160px;
+               width: 18px;
+          }
+     
+          p {
+               font-size: 200px;
+               padding: 60px 50px 80px;
+          }
+     
+          #segundostxt {
+               padding-left: 40px;
+          }
+     
+          #legenda,#legenda1,#legenda2 {
+               font-size: 30px;
+               padding: 23px 137.5px;
+
+          }
+     
+          #legenda1 {
+               padding: 24px 122px;
+          }
+     
+          #legenda2 {
+               padding: 23px 107px;
+          }
+     }
+     .container-data{
+          max-width: 450px;
+          margin: 0 auto;
+          #lista {
+               display: flex;
+               gap: 30px;
+               margin: 0 auto;
+               justify-content: center;
+               text-decoration: none;
+               align-items: center;
+               max-width: 600px;
+               border-radius: 30px;
+     
+               li {
+                    padding: 25px 0px;
+                    text-align: center;
+               }
+               #data-extenso {
+                    font-size: 25px;
+               }
+               }
+     
+          #icon-calendar {
+               width: 60px;
+               height: 60px;
+          }
+     }
+ }
+
+ @media only screen and (max-width: 1600px) {
+     .h1-font-black {
+          font-size: 60px;  
+     }
+
+     .h1-font-white {
+          font-size: 60px;
+     }
+
+     .relogio {
+          gap: 40px;
+     
+          .container {
+               width: 300px;
+          }
+     
+          #detail-x {
+               top: 100px;
+               width: 120px;
+               
+          }
+     
+          #detail-x-right {
+               top: 100px;
+               width: 120px;
+          }
+     
+          #detail-dots,#detail-dots2 {
+               top: 160px;
+               width: 18px;
+          }
+     
+          p {
+               font-size: 130px;
+               padding: 60px 30px 80px;
+          }
+     
+          #segundostxt {
+               padding-left: 40px;
+          }
+     
+          #legenda,#legenda1,#legenda2 {
+               font-size: 30px;
+               padding: 23px 107px;
+
+          }
+     
+          #legenda1 {
+               padding: 24px 91px;
+          }
+     
+          #legenda2 {
+               padding: 23px 77px;
+          }
+     }
+     .container-data{
+          max-width: 420px;
+          margin: 0 auto;
+          #lista {
+               display: flex;
+               gap: 30px;
+               margin: 0 auto;
+               justify-content: center;
+               text-decoration: none;
+               align-items: center;
+               max-width: 600px;
+               border-radius: 30px;
+     
+               li {
+                    padding: 25px 0px;
+                    text-align: center;
+               }
+               #data-extenso {
+                    font-size: 22px;
+               }
+               }
+     
+          #icon-calendar {
+               width: 50px;
+               height: 50px;
+          }
+     }
+ }
+
+ @media only screen and (max-width: 1600px) {
+          #detail-x {
+               display: none;
+             
+               
+          }
+     
+          #detail-x-right {
+               display: none;
+              
+          }
+     
+     }
+
+     @media only screen and (max-width: 1600px) {
+          .h1-font-black {
+               font-size: 60px;  
+          }
+          .h1-font-white {
+               font-size: 60px;
+          }
+     
+          .relogio {
+               gap: 10px;
+          
+               .container {
+                    width: 300px;
+               }
+          
+               .dots {
+                    display: none;
+               }
+          
+               p {
+                    font-size: 130px;
+                    padding: 60px 30px 80px;
+      }
+     }
+}
+
+@media only screen and (max-width: 950px) {
+     .h1-font-black {
+          font-size: 40px;  
+     }
+
+     .h1-font-white {
+          font-size: 40px;
+     }
+
+     .relogio {
+          gap: 10px;
+     
+          .container {
+               width: 250px;
+          }
+     
+          p {
+               font-size: 80px;
+               padding: 60px 30px 80px;
+          }
+     
+          #segundostxt {
+               padding-left: 40px;
+          }
+     
+          #legenda,#legenda1,#legenda2 {
+               font-size: 30px;
+               padding: 23px 83px;
+
+          }
+     
+          #legenda1 {
+               padding: 24px 67px;
+          }
+     
+          #legenda2 {
+               padding: 23px 52px;
+          }
+     }
+     .container-data{
+          max-width: 320px;
+          margin: 0 auto;
+          #lista {
+               display: flex;
+               gap: 30px;
+               margin: 0 auto;
+               justify-content: center;
+               text-decoration: none;
+               align-items: center;
+               max-width: 600px;
+               border-radius: 30px;
+     
+               li {
+                    padding: 25px 0px;
+                    text-align: center;
+               }
+               #data-extenso {
+                    font-size: 16px;
+               }
+               }
+     
+          #icon-calendar {
+               width: 40px;
+               height: 40px;
+          }
+     }
+ }
+
+ @media only screen and (max-width: 800px) {
+     .h1-font-black {
+          font-size: 34px;  
+     }
+
+     .h1-font-white {
+          font-size: 34px;
+     }
+
+     .relogio {
+          gap: 14px;
+     
+          .container {
+               width: 180px;
+          }
+     
+          p {
+               font-size: 60px;
+               padding: 60px 30px 60px;
+          }
+     
+          #segundostxt {
+               padding-left: 40px;
+          }
+     
+          #legenda,#legenda1,#legenda2 {
+               font-size: 20px;
+               padding: 23px 61px;
+
+          }
+     
+          #legenda1 {
+               padding: 22px 51px;
+          }
+     
+          #legenda2 {
+               padding: 23px 41px;
+          }
+     }
+     .container-data{
+          max-width: 320px;
+          margin: 0 auto;
+          #lista {
+               display: flex;
+               gap: 30px;
+               margin: 0 auto;
+               justify-content: center;
+               text-decoration: none;
+               align-items: center;
+               max-width: 600px;
+               border-radius: 30px;
+     
+               li {
+                    padding: 25px 0px;
+                    text-align: center;
+               }
+               #data-extenso {
+                    font-size: 16px;
+               }
+               }
+     
+          #icon-calendar {
+               width: 40px;
+               height: 40px;
+          }
+     }
+ }

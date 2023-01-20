@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Digital Clock</title>
+     <link rel="stylesheet" href="../relogio/sass/general.css">
+     <link rel="shortcut icon" href="../Favicon.svg" type="image/x-icon">
+</head>
+<body onload="horas()">
+     <div>
+          <img src="../relogio/Vector.png" alt="" id="bg-dinamico">
+     </div>
+     <header>
+          <img src="../relogio/imgs/icon-clock.svg" alt="" id="icon-clock-id">
+          <h1 id="font">Relógio Digital</h1>
+     </header>
+     <section class="relogio">
+          
+          <div>
+               <img src="../relogio/imgs/detail-x.svg" alt="" id="detail-x">
+          </div>
+          <div class="container">
+               <p id="horastxt"></p>
+               <span id="legenda">Horas</span>
+          </div>
+          <div class="dots">
+               <img src="../relogio/imgs/dots.svg" alt="" id="detail-dots">
+          </div>
+          <div class="container">
+               <p id="minutostxt"></p>
+               <span id="legenda1">Minutos</span>
+          </div>
+          <div class="dots">
+               <img src="../relogio/imgs/dots.svg" alt="" id="detail-dots2">
+          </div>
+          <div class="container">
+               <p id="segundostxt"></p>
+               <span id="legenda2">Segundos</span>
+          </div>
+          <div>
+               <img src="../relogio/imgs/detail-x.svg" alt="" id="detail-x-right">
+          </div>
+     </section>
+          <div class="container-data">
+               <ul id="lista">
+                    <li><img src="../relogio/imgs/icon-calendar.png" alt="" id="icon-calendar"></li>
+                    <li><p id="data-extenso"></p></li>
+               </ul>
+                               
+          </div>
+     <script src="../relogio/javascript/js.js">
+     </script>
+</div>
+</body>
+</html>

@@ -1,0 +1,533 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Poppins&display=swap");
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after, q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+body header {
+  display: grid;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+body header h1 {
+  font-size: 64px;
+  font-weight: 500;
+}
+body header #icon-clock-id {
+  padding: 0 30px;
+  width: 60px;
+  height: 60px;
+  margin: 0 auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+#bg-dinamico {
+  z-index: -1;
+  position: fixed;
+  top: -500px;
+}
+
+.relogio {
+  display: flex;
+  gap: 40px;
+  margin-top: 80px;
+  justify-content: center;
+}
+.relogio .container {
+  width: 500px;
+  margin-bottom: 80px;
+  box-shadow: 0px 4px 80px 30px rgba(0, 0, 0, 0.2);
+  border-radius: 30px;
+}
+.relogio #detail-x {
+  position: relative;
+  top: 100px;
+  left: 78px;
+  z-index: -1;
+  stroke-width: 2px;
+}
+.relogio #detail-x-right {
+  position: relative;
+  top: 100px;
+  right: 78px;
+  z-index: -1;
+  stroke-width: 6px;
+}
+.relogio #detail-dots, .relogio #detail-dots2 {
+  position: relative;
+  top: 200px;
+}
+.relogio p {
+  font-family: "Inter", sans-serif;
+  font-size: 230px;
+  background-color: #D9D9D9;
+  padding: 82px 126px 102px;
+  border-radius: 30px;
+  text-align: center;
+}
+.relogio #segundostxt {
+  padding-left: 120px;
+}
+.relogio #legenda, .relogio #legenda1, .relogio #legenda2 {
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  font-size: 36px;
+  text-align: center;
+  justify-self: center;
+  padding: 23px 197px 23px 200px;
+  border-radius: 0px 0px 30px 30px;
+}
+.relogio #legenda1 {
+  padding: 24px 180px;
+}
+.relogio #legenda2 {
+  padding: 23px 160px 23px 165px;
+}
+
+.container-data {
+  max-width: 600px;
+  margin: 0 auto;
+}
+.container-data #lista {
+  display: flex;
+  gap: 30px;
+  margin: 0 auto;
+  justify-content: center;
+  text-decoration: none;
+  align-items: center;
+  max-width: 600px;
+  border-radius: 30px;
+  box-shadow: 0px 4px 80px 30px rgba(0, 0, 0, 0.2);
+}
+.container-data #lista li {
+  padding: 25px 0px;
+  text-align: center;
+}
+.container-data #lista #data-extenso {
+  font-size: 36px;
+}
+.container-data #icon-calendar {
+  width: 60px;
+  height: 60px;
+}
+
+.h1-font-white {
+  color: #FBFBFB;
+}
+
+.h1-font-black {
+  color: #4D4C4C;
+}
+
+.icon-clock-white {
+  filter: invert(98%) sepia(0%) saturate(40%) hue-rotate(182deg) brightness(160%) contrast(97%);
+}
+
+.detail-x-white {
+  filter: invert(98%) sepia(0%) saturate(40%) hue-rotate(182deg) brightness(160%) contrast(97%);
+}
+
+.detail-dots-white {
+  filter: invert(98%) sepia(0%) saturate(40%) hue-rotate(182deg) brightness(160%) contrast(97%);
+}
+
+.legenda {
+  color: #4D4C4C;
+  background-color: #FBFBFB;
+}
+
+.legenda-white {
+  color: #FBFBFB;
+  background-color: #4D4C4C;
+}
+
+.lista {
+  background-color: #4D4C4C;
+  box-shadow: 0px 4px 80px 30px rgba(0, 0, 0, 0.2);
+}
+
+.icon-calendar-white {
+  filter: invert(100%) sepia(100%) saturate(2%) hue-rotate(234deg) brightness(107%) contrast(97%);
+}
+
+@media only screen and (max-width: 1980px) {
+  .h1-font-black {
+    font-size: 65px;
+  }
+  .h1-font-white {
+    font-size: 65px;
+  }
+  .relogio {
+    gap: 40px;
+  }
+  .relogio .container {
+    width: 400px;
+  }
+  .relogio #detail-x {
+    top: 100px;
+    width: 120px;
+  }
+  .relogio #detail-x-right {
+    top: 100px;
+    width: 120px;
+  }
+  .relogio #detail-dots, .relogio #detail-dots2 {
+    top: 160px;
+    width: 18px;
+  }
+  .relogio p {
+    font-size: 200px;
+    padding: 60px 50px 80px;
+  }
+  .relogio #segundostxt {
+    padding-left: 40px;
+  }
+  .relogio #legenda, .relogio #legenda1, .relogio #legenda2 {
+    font-size: 30px;
+    padding: 23px 157.5px;
+  }
+  .relogio #legenda1 {
+    padding: 24px 142px;
+  }
+  .relogio #legenda2 {
+    padding: 23px 127px;
+  }
+  .container-data {
+    max-width: 500px;
+    margin: 0 auto;
+  }
+  .container-data #lista {
+    display: flex;
+    gap: 30px;
+    margin: 0 auto;
+    justify-content: center;
+    text-decoration: none;
+    align-items: center;
+    max-width: 600px;
+    border-radius: 30px;
+  }
+  .container-data #lista li {
+    padding: 25px 0px;
+    text-align: center;
+  }
+  .container-data #lista #data-extenso {
+    font-size: 30px;
+  }
+  .container-data #icon-calendar {
+    width: 60px;
+    height: 60px;
+  }
+}
+@media only screen and (max-width: 1980px) {
+  .h1-font-black {
+    font-size: 60px;
+  }
+  .h1-font-white {
+    font-size: 60px;
+  }
+  .relogio {
+    gap: 40px;
+  }
+  .relogio .container {
+    width: 360px;
+  }
+  .relogio #detail-x {
+    top: 100px;
+    width: 120px;
+  }
+  .relogio #detail-x-right {
+    top: 100px;
+    width: 120px;
+  }
+  .relogio #detail-dots, .relogio #detail-dots2 {
+    top: 160px;
+    width: 18px;
+  }
+  .relogio p {
+    font-size: 200px;
+    padding: 60px 50px 80px;
+  }
+  .relogio #segundostxt {
+    padding-left: 40px;
+  }
+  .relogio #legenda, .relogio #legenda1, .relogio #legenda2 {
+    font-size: 30px;
+    padding: 23px 137.5px;
+  }
+  .relogio #legenda1 {
+    padding: 24px 122px;
+  }
+  .relogio #legenda2 {
+    padding: 23px 107px;
+  }
+  .container-data {
+    max-width: 450px;
+    margin: 0 auto;
+  }
+  .container-data #lista {
+    display: flex;
+    gap: 30px;
+    margin: 0 auto;
+    justify-content: center;
+    text-decoration: none;
+    align-items: center;
+    max-width: 600px;
+    border-radius: 30px;
+  }
+  .container-data #lista li {
+    padding: 25px 0px;
+    text-align: center;
+  }
+  .container-data #lista #data-extenso {
+    font-size: 25px;
+  }
+  .container-data #icon-calendar {
+    width: 60px;
+    height: 60px;
+  }
+}
+@media only screen and (max-width: 1600px) {
+  .h1-font-black {
+    font-size: 60px;
+  }
+  .h1-font-white {
+    font-size: 60px;
+  }
+  .relogio {
+    gap: 40px;
+  }
+  .relogio .container {
+    width: 300px;
+  }
+  .relogio #detail-x {
+    top: 100px;
+    width: 120px;
+  }
+  .relogio #detail-x-right {
+    top: 100px;
+    width: 120px;
+  }
+  .relogio #detail-dots, .relogio #detail-dots2 {
+    top: 160px;
+    width: 18px;
+  }
+  .relogio p {
+    font-size: 130px;
+    padding: 60px 30px 80px;
+  }
+  .relogio #segundostxt {
+    padding-left: 40px;
+  }
+  .relogio #legenda, .relogio #legenda1, .relogio #legenda2 {
+    font-size: 30px;
+    padding: 23px 107px;
+  }
+  .relogio #legenda1 {
+    padding: 24px 91px;
+  }
+  .relogio #legenda2 {
+    padding: 23px 77px;
+  }
+  .container-data {
+    max-width: 420px;
+    margin: 0 auto;
+  }
+  .container-data #lista {
+    display: flex;
+    gap: 30px;
+    margin: 0 auto;
+    justify-content: center;
+    text-decoration: none;
+    align-items: center;
+    max-width: 600px;
+    border-radius: 30px;
+  }
+  .container-data #lista li {
+    padding: 25px 0px;
+    text-align: center;
+  }
+  .container-data #lista #data-extenso {
+    font-size: 22px;
+  }
+  .container-data #icon-calendar {
+    width: 50px;
+    height: 50px;
+  }
+}
+@media only screen and (max-width: 1600px) {
+  #detail-x {
+    display: none;
+  }
+  #detail-x-right {
+    display: none;
+  }
+}
+@media only screen and (max-width: 1600px) {
+  .h1-font-black {
+    font-size: 60px;
+  }
+  .h1-font-white {
+    font-size: 60px;
+  }
+  .relogio {
+    gap: 10px;
+  }
+  .relogio .container {
+    width: 300px;
+  }
+  .relogio .dots {
+    display: none;
+  }
+  .relogio p {
+    font-size: 130px;
+    padding: 60px 30px 80px;
+  }
+}
+@media only screen and (max-width: 950px) {
+  .h1-font-black {
+    font-size: 40px;
+  }
+  .h1-font-white {
+    font-size: 40px;
+  }
+  .relogio {
+    gap: 10px;
+  }
+  .relogio .container {
+    width: 250px;
+  }
+  .relogio p {
+    font-size: 80px;
+    padding: 60px 30px 80px;
+  }
+  .relogio #segundostxt {
+    padding-left: 40px;
+  }
+  .relogio #legenda, .relogio #legenda1, .relogio #legenda2 {
+    font-size: 30px;
+    padding: 23px 83px;
+  }
+  .relogio #legenda1 {
+    padding: 24px 67px;
+  }
+  .relogio #legenda2 {
+    padding: 23px 52px;
+  }
+  .container-data {
+    max-width: 320px;
+    margin: 0 auto;
+  }
+  .container-data #lista {
+    display: flex;
+    gap: 30px;
+    margin: 0 auto;
+    justify-content: center;
+    text-decoration: none;
+    align-items: center;
+    max-width: 600px;
+    border-radius: 30px;
+  }
+  .container-data #lista li {
+    padding: 25px 0px;
+    text-align: center;
+  }
+  .container-data #lista #data-extenso {
+    font-size: 16px;
+  }
+  .container-data #icon-calendar {
+    width: 40px;
+    height: 40px;
+  }
+}
+@media only screen and (max-width: 800px) {
+  .h1-font-black {
+    font-size: 34px;
+  }
+  .h1-font-white {
+    font-size: 34px;
+  }
+  .relogio {
+    gap: 14px;
+  }
+  .relogio .container {
+    width: 180px;
+  }
+  .relogio p {
+    font-size: 60px;
+    padding: 60px 30px 60px;
+  }
+  .relogio #segundostxt {
+    padding-left: 40px;
+  }
+  .relogio #legenda, .relogio #legenda1, .relogio #legenda2 {
+    font-size: 20px;
+    padding: 23px 61px;
+  }
+  .relogio #legenda1 {
+    padding: 22px 51px;
+  }
+  .relogio #legenda2 {
+    padding: 23px 41px;
+  }
+  .container-data {
+    max-width: 320px;
+    margin: 0 auto;
+  }
+  .container-data #lista {
+    display: flex;
+    gap: 30px;
+    margin: 0 auto;
+    justify-content: center;
+    text-decoration: none;
+    align-items: center;
+    max-width: 600px;
+    border-radius: 30px;
+  }
+  .container-data #lista li {
+    padding: 25px 0px;
+    text-align: center;
+  }
+  .container-data #lista #data-extenso {
+    font-size: 16px;
+  }
+  .container-data #icon-calendar {
+    width: 40px;
+    height: 40px;
+  }
+}
+
+/*# sourceMappingURL=general.css.map */
