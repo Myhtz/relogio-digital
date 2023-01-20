@@ -426,3 +426,73 @@
           }
      }
  }
+
+ @media only screen and (max-width: 500px) {
+     .h1-font-black {
+          font-size: 30px;  
+     }
+
+     .h1-font-white {
+          font-size: 30px;
+     }
+
+     .relogio {
+          gap: 8px;
+     
+          .container {
+               width: 110px;
+          }
+     
+          p {
+               font-size: 50px;
+               padding: 40px 30px 40px;
+          }
+     
+          #segundostxt {
+               padding-left: 30px;
+          }
+     
+          #legenda,#legenda1,#legenda2 {
+               font-size: 16px;
+               position: relative;
+               bottom: 13px;
+               padding: 12px 32px;
+
+          }
+     
+          #legenda1 {
+               padding: 12px 24px;
+          }
+     
+          #legenda2 {
+               padding: 12px 16px;
+          }
+     }
+     .container-data{
+          max-width: 320px;
+          margin: 0 auto;
+          #lista {
+               display: flex;
+               gap: 30px;
+               margin: 0 auto;
+               justify-content: center;
+               text-decoration: none;
+               align-items: center;
+               max-width: 600px;
+               border-radius: 30px;
+     
+               li {
+                    padding: 25px 0px;
+                    text-align: center;
+               }
+               #data-extenso {
+                    font-size: 16px;
+               }
+               }
+     
+          #icon-calendar {
+               width: 40px;
+               height: 40px;
+          }
+     }
+ }

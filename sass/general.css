@@ -529,5 +529,63 @@ body header #icon-clock-id {
     height: 40px;
   }
 }
+@media only screen and (max-width: 500px) {
+  .h1-font-black {
+    font-size: 30px;
+  }
+  .h1-font-white {
+    font-size: 30px;
+  }
+  .relogio {
+    gap: 8px;
+  }
+  .relogio .container {
+    width: 110px;
+  }
+  .relogio p {
+    font-size: 50px;
+    padding: 40px 30px 40px;
+  }
+  .relogio #segundostxt {
+    padding-left: 30px;
+  }
+  .relogio #legenda, .relogio #legenda1, .relogio #legenda2 {
+    font-size: 16px;
+    position: relative;
+    bottom: 13px;
+    padding: 12px 32px;
+  }
+  .relogio #legenda1 {
+    padding: 12px 24px;
+  }
+  .relogio #legenda2 {
+    padding: 12px 16px;
+  }
+  .container-data {
+    max-width: 320px;
+    margin: 0 auto;
+  }
+  .container-data #lista {
+    display: flex;
+    gap: 30px;
+    margin: 0 auto;
+    justify-content: center;
+    text-decoration: none;
+    align-items: center;
+    max-width: 600px;
+    border-radius: 30px;
+  }
+  .container-data #lista li {
+    padding: 25px 0px;
+    text-align: center;
+  }
+  .container-data #lista #data-extenso {
+    font-size: 16px;
+  }
+  .container-data #icon-calendar {
+    width: 40px;
+    height: 40px;
+  }
+}
 
 /*# sourceMappingURL=general.css.map */
