@@ -44,7 +44,7 @@ function horas() {
      }
 
      if (horas >= 0 && horas <= 5) {
-          document.body.style.backgroundImage = "URL(../relogio/imgs/back-madrugada.svg)"
+          document.body.style.backgroundImage = "URL(../imgs/back-madrugada.svg)"
           legenda.classList.add("legenda")
           legenda1.classList.add("legenda")
           legenda2.classList.add("legenda")
@@ -63,11 +63,11 @@ function horas() {
           detail_dots_1.classList.add("detail-dots-white")
           detail_dots_2.classList.add("detail-dots-white")
           detail_x_white_right.classList.add("detail-x-white")
-          document.getElementById('bg-dinamico').setAttribute('src', '../relogio/imgs/madrugada.png');
+          document.getElementById('bg-dinamico').setAttribute('src', '../imgs/madrugada.png');
      }
 
      if (horas >= 6 && horas <= 12) {
-          document.body.style.backgroundImage = "URL(../relogio/imgs/back-manha.svg)"
+          document.body.style.backgroundImage = "URL(../imgs/back-manha.svg)"
           legenda.style.color = "#FBFBFB"
           legenda.style.backgroundColor = "#4D4C4C"
           legenda1.style.color = "#FBFBFB"
@@ -83,11 +83,11 @@ function horas() {
           txthoras.style.color = "#4D4C4C"
           lista.style.backgroundColor = "#FBFBFB"
           data_extenso.style.color = "#4D4C4C"
-          document.getElementById('bg-dinamico').setAttribute('src', '../relogio/imgs/manha.png');
+          document.getElementById('bg-dinamico').setAttribute('src', '../imgs/manha.png');
      }
 
      if (horas >= 13 && horas <= 18) {
-          document.body.style.backgroundImage = "URL(../relogio/imgs/back-tarde.svg)"
+          document.body.style.backgroundImage = "URL(../imgs/back-tarde.svg)"
           legenda.style.color = "#FBFBFB"
           legenda.style.backgroundColor = "#4D4C4C"
           legenda1.style.color = "#FBFBFB"
@@ -103,11 +103,11 @@ function horas() {
           txthoras.style.color = "#4D4C4C"
           lista.style.backgroundColor = "#FBFBFB"
           data_extenso.style.color = "#4D4C4C"
-          document.getElementById('bg-dinamico').setAttribute('src', '../relogio/imgs/tarde.png');
+          document.getElementById('bg-dinamico').setAttribute('src', '../imgs/tarde.png');
      }
 
      if (horas >= 19 && horas <= 23) {
-          document.body.style.backgroundImage = "URL(../relogio/imgs/back-noite.svg)"
+          document.body.style.backgroundImage = "URL(../imgs/back-noite.svg)"
           legenda.classList.add("legenda")
           legenda1.classList.add("legenda")
           legenda2.classList.add("legenda")
@@ -126,7 +126,7 @@ function horas() {
           detail_dots_1.classList.add("detail-dots-white")
           detail_dots_2.classList.add("detail-dots-white")
           detail_x_white_right.classList.add("detail-x-white")
-          document.getElementById('bg-dinamico').setAttribute('src', '../relogio/imgs/noite.png');
+          document.getElementById('bg-dinamico').setAttribute('src', '../imgs/noite.png');
      }
 
      switch (diaSem) {
