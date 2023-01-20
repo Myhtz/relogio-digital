@@ -251,21 +251,7 @@
      }
  }
 
- @media only screen and (max-width: 1600px) {
-          #detail-x {
-               display: none;
-             
-               
-          }
-     
-          #detail-x-right {
-               display: none;
-              
-          }
-     
-     }
-
-     @media only screen and (max-width: 1600px) {
+     @media only screen and (max-width: 1500px) {
           .h1-font-black {
                font-size: 60px;  
           }
@@ -279,11 +265,25 @@
                .container {
                     width: 300px;
                }
-          
-               .dots {
-                    display: none;
+
+               #detail-dots,#detail-dots2 {
+                    top: 120px;
+                    width: 18px;
                }
           
+               #detail-x {
+                    top: 100px;
+                    width: 120px;
+                    margin-right: 30px;
+                    
+               }
+
+               #detail-x-right {
+                    top: 100px;
+                    width: 120px;
+                    margin-left: 30px;
+               }
+
                p {
                     font-size: 130px;
                     padding: 60px 30px 80px;
@@ -291,7 +291,7 @@
      }
 }
 
-@media only screen and (max-width: 950px) {
+@media only screen and (max-width: 1250px) {
      .h1-font-black {
           font-size: 40px;  
      }
@@ -306,6 +306,20 @@
           .container {
                width: 250px;
           }
+
+          #detail-x {
+               top: 60px;
+               width: 120px;
+               margin-right: 30px;
+               
+          }
+
+          #detail-x-right {
+               top: 60px;
+               width: 120px;
+               margin-left: 30px;
+          }
+
      
           p {
                font-size: 80px;
@@ -359,7 +373,7 @@
      }
  }
 
- @media only screen and (max-width: 800px) {
+ @media only screen and (max-width: 1050px) {
      .h1-font-black {
           font-size: 34px;  
      }
@@ -374,6 +388,25 @@
           .container {
                width: 180px;
           }
+
+          #detail-dots,#detail-dots2 {
+               top: 90px;
+               width: 14px;
+          }
+     
+          #detail-x {
+               top: 40px;
+               width: 100px;
+               margin-right: 30px;
+               
+          }
+
+          #detail-x-right {
+               top: 40px;
+               width: 100px;
+               margin-left: 30px;
+          }
+
      
           p {
                font-size: 60px;
@@ -427,7 +460,109 @@
      }
  }
 
- @media only screen and (max-width: 500px) {
+ @media only screen and (max-width: 930px) {
+     .h1-font-black {
+          font-size: 34px;  
+     }
+
+     .h1-font-white {
+          font-size: 34px;
+     }
+
+     .relogio {
+          gap: 14px;
+     
+          .container {
+               width: 179px;
+          }
+
+          #detail-dots,#detail-dots2 {
+               top: 90px;
+               width: 14px;
+          }
+     
+          #detail-x {
+               top: 40px;
+               width: 100px;
+               margin-right: 30px;
+               
+          }
+
+          #detail-x-right {
+               top: 40px;
+               width: 100px;
+               margin-left: 30px;
+          }
+     }
+     
+ }
+
+ @media only screen and (max-width: 910px) {
+     .h1-font-black {
+          font-size: 34px;  
+     }
+
+     .h1-font-white {
+          font-size: 34px;
+     }
+
+     .relogio {
+          gap: 14px;
+     
+          .container {
+               width: 179px;
+          }
+
+          #detail-dots,#detail-dots2 {
+               top: 90px;
+               width: 14px;
+          }
+     
+          #detail-x {
+               display: none;
+               
+          }
+
+          #detail-x-right {
+               display: none;
+          }
+     }
+     
+ }
+
+ @media only screen and (max-width: 650px) {
+     .h1-font-black {
+          font-size: 34px;  
+     }
+
+     .h1-font-white {
+          font-size: 34px;
+     }
+
+     .relogio {
+          gap: 6px;
+     
+          .container {
+               width: 179px;
+          }
+
+          #detail-dots,#detail-dots2 {
+               display: none;
+          }
+     
+          #detail-x {
+               display: none;
+               
+          }
+
+          #detail-x-right {
+               display: none;
+          }
+     }
+     
+ }
+
+ @media only screen and (max-width: 600px) {
      .h1-font-black {
           font-size: 30px;  
      }
@@ -470,7 +605,7 @@
      }
      .container-data{
           max-width: 320px;
-          margin: 0 auto;
+          margin: -30px auto;
           #lista {
                display: flex;
                gap: 30px;
